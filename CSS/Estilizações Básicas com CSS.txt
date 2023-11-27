@@ -64,4 +64,32 @@ background: hsl(120, 100%, 50%);
 
 Aqui definimos um verde bem vivido e com meia luminosidade. O hsl tam aceita o canal alfa dentro dele onde conseguimos trabalhar com as propriedades alfa de opacidade que tambem vai de 0.0 a 1.0 de opacidade.
 
-Imagens
+Fundos de Objetos
+Para criarmos um efeito gradiente dentro de um objeto podemos fazer assim.
+
+<head>
+<style>
+#teste {
+background-image: linear-gradient(pink, purple);
+}
+</style>
+</head>
+
+Isso vai fazer um degrade de cor do rosa até o roxo em linha reta. Tambem temos.
+
+
+<head>
+<style>
+#teste {
+background-image: radius-gradient(pink, purple);
+}
+</style>
+</head>
+
+Que cria um degrade mas com formato de circulo dentro do objeto.
+
+Backgound-Attachment:
+Fixed - Deixa a imagem de fundo, fixada perante o navegador, se rolarmos a barra para baixo ela vai acompanha até ela desaparecer.
+Scroll - Faz com que a imagem acompanhe o scroll da pagina se ele for pra baixo a imagem vai subindo e se ele for para cima a imagem vai descendo.
+Local - Deixa a imagem fixa mas perante a algum outro objeto eu acho q é isso...
+

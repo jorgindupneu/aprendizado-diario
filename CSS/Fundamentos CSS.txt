@@ -369,3 +369,4 @@ padding-left: 10px
 Assim separamos o conteudo do objeto em 10px na parte de cima, direita, baixo, esquerda respectivamente. Tambem podemos definir um padrão com ( padding: 10px; ) e tambem vários padding com ( padding: 20px 40px 50px 10px; ).
 Para ambos margin e padding temos algumas palavras que podem ser utilizadas para dar estilo como ( auto ) que define um tamaho automatico para o objeto ou conteudo.
 
+
