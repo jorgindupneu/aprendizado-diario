@@ -26,6 +26,6 @@ Display: flex;
 O flexbox é uma forma de organizar os elementos em uma página dentro de containers e de forma dinamica, organizando os elementos em uma dimensão: ou horizontalmente (as linhas), ou verticalemte (em colunas)
 
 Display Grid;
-O grid layout vai organizar os elementos das nossas páginas em fuas dimenções: de forma horizontal e vertical, definindo linhas e colunas para que os conteudos da página sejam posicionados.
+O grid layout vai organizar os elementos das nossas páginas em duas dimenções: de forma horizontal e vertical, definindo linhas e colunas para que os conteudos da página sejam posicionados.
 
 

@@ -353,7 +353,7 @@ Enquanto a margin separa objetos de outros objetos o padding separa o conteudo d
 
 <head>
 <style>
-#margin {
+#padding {
 background: purple;
 padding-top: 10px;
 padding-right: 10px;
