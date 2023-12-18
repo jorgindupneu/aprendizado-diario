@@ -9,25 +9,8 @@ body {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2.345rem 2.345rem;
+    grid-template-columns: auto 1fr;
     grid-template-rows: 3.5rem 1fr;
-    min-width: 80%;
-}
-#principal {
-    display: grid;
-    grid-template-columns: 4.69rem 1fr 4.69rem ;
-    grid-template-rows: 1.75rem auto 1rem auto 1fr;
-}
-#detalhes {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4fr;
-}
-aside section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1fr);
-    margin-bottom: 1.25rem;
 }
 h1 {
     font-size: 1.25rem;
@@ -40,6 +23,12 @@ h2 {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+h3 {
+    font-size: 0.87rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
 }
 p {
     font-size: 0.87rem;
